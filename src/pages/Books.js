@@ -11,28 +11,17 @@ const Books = () => {
           <br />
           <br />
           <div style={{ textAlign: 'center' }}>
-          <h1>Books</h1>
+            <h1>Books</h1>
           </div>
-          <br />
-          <h3>Cyborg Alphabet</h3>
-          <div style={{ textAlign: 'center' }}>
-          <img src={image1} alt="Cyborg Alphabet" style={{ maxWidth: '100%', height: 'auto' }} />
-          </div>
-          <p>
-            A children's book on science, technology, engineering, medicine and philosophy, recommended for ages 6+. A book designed for children in developing areas to supplement life skills in a fun and educational format. Watch as your child's struggles to overcome complex concepts such as anatomy, cyborgs, electricity and organisms.
-          </p>
           <br />
           <h3>Cyborg Alphabet</h3>
           <div style={{ textAlign: 'center' }}>
             <img src={image1} alt="Cyborg Alphabet" style={{ maxWidth: '100%', height: 'auto' }} />
           </div>
-
           <p>
-            A children's book on science, technology, engineering, medicine and philosophy, recommended for ages 6+. A book designed for children in developing areas to supplement life skills in a fun and educational format. Watch as your child overcomes complex concepts such as anatomy, cyborgs, electricity, and organisms.
+            A children's book on science, technology, engineering, medicine and philosophy, recommended for ages 6+. A book designed for children in developing areas to supplement life skills in a fun and educational format. Watch as your child's struggles to overcome complex concepts such as anatomy, cyborgs, electricity and organisms.
           </p>
-
           <br />
-
           <h4>Purchase Links</h4>
           <p>Sabrenetics has a "pay what you can afford" approach to education.</p>
           <p>
@@ -94,24 +83,28 @@ const Books = () => {
               </tr>
             </tbody>
           </table>
-
           <br />
           <hr />
           <br />
-
           <h3>Cybernetics, Cyberware and Cyborgs</h3>
           <div style={{ textAlign: 'center' }}>
-          <img src={image2} alt="Cybernetics, Cyberware and Cyborgs" style={{ maxWidth: '100%', height: 'auto' }} />
+            <img src={image2} alt="Cybernetics, Cyberware and Cyborgs" style={{ maxWidth: '100%', height: 'auto' }} />
           </div>
-
           <p>
             FREE for those neurodivergent, handicapped, schools, libraries and educational institutes, teachers, researchers, bookstores and more for samples.
           </p>
-
           <br />
-
           <h4>Purchase Links</h4>
-
+          <p>Sabrenetics has a "pay what you can afford" approach to education.</p>
+          <p>
+            Free version available: TBA
+          </p>
+          <p>
+            Free lossless (High quality) version available: TBA
+          </p>
+          <p>
+            Paid version available: TBA
+          </p>
           <table style={{ width: '100%' }}>
             <tbody>
               <tr>
@@ -147,11 +140,9 @@ const Books = () => {
               </tr>
             </tbody>
           </table>
-
           <br />
           <hr />
           <br />
-
         </div>
         <div className="column3"></div>
       </div>
