@@ -23,7 +23,7 @@ const News = () => {
             my spare time so forgive me) but expect hopefully by end 2024.
           </p>
           <br />
-          <h3>Let's make YouTube/Tik Tok vids on Cyborgs together!</h3>
+          {/* <h3>Let's make YouTube/Tik Tok vids on Cyborgs together!</h3>
           <p>
             I'm looking for non paid hobby film makers to I'm looking to start shooting a 10+ min
             monthly ongoing documentary series on Cyborgs, Disability, Biomedical Engineering,
@@ -39,7 +39,7 @@ const News = () => {
           <p>
             I cannot pay you (sad I know I'm not Scrooge McDuck) and we'll be using existing
             filming gear (Hero 9-11, with Rode Mics, MacBook Pro's for editing etc.,).
-          </p>
+          </p> */}
           <br />
           <h3>Ongoing Biomedical Engineering Meetup</h3>
           <p>
