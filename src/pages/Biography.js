@@ -1,6 +1,7 @@
 import React from 'react';
 import image1 from '../assets/graphics/biography-1.png';
 import image2 from '../assets/graphics/biography-2.png';
+import image3 from '../assets/graphics/asura-ghar.jpg';
 import YouTubeEmbed from '../components/YouTubeEmbed';
 
 const Biography = () => {
@@ -88,6 +89,7 @@ const Biography = () => {
             Acknowledging the fictional nature of theological scriptures such as the Gathas and Vedas he
             entertains the belief that all life natural or artificial possesses a soul.
           </p>
+          <img src={image3} alt="House of Asura" style={{ maxWidth: '100%', height: 'auto' }} />
         </div>
         <div className="column3"></div>
       </div>
