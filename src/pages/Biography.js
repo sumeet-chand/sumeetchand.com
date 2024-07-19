@@ -1,6 +1,7 @@
 import React from 'react';
 import image1 from '../assets/graphics/biography-1.png';
 import image2 from '../assets/graphics/biography-2.png';
+import asuraghar from '../assets/graphics/asura-ghar.jpg';
 import YouTubeEmbed from '../components/YouTubeEmbed';
 
 const Biography = () => {
@@ -27,9 +28,11 @@ const Biography = () => {
             Throughout her life, she worked at various medical institutes, including Royal Prince Alfred
             Hospital (RPA).
           </p>
-          <img src={image1} alt="Fiji Islands" style={{ maxWidth: '100%', height: 'auto' }} />
           <p>
+          <div style={{ textAlign: 'center' }}>
+          <img src={image1} alt="Fiji Islands" style={{ maxWidth: '100%', height: 'auto' }} />
             The Fiji islands, consisting of two major islands Vanua Levu (South) and Viti Levu (North).
+            </div>
           </p>
           <p>
             Dalip Chand, born on April 18, 1953, in Labasa, Fiji, is a Pundit, polymath, and polyglot
@@ -42,10 +45,14 @@ const Biography = () => {
             microbiology, and epidemiology, eventually founding work as a handyman franchisee owner due
             to his senile genetic diabetic-related illness requiring constant physical exercise to survive.
           </p>
+          
+          <div style={{ textAlign: 'center' }}>
           <img src={image2} alt="Vanua Levu island, Fiji" style={{ maxWidth: '100%', height: 'auto' }} />
           <p>
             Vanua Levu is the second largest island of Fiji.
           </p>
+          </div>
+          
           <p>
             Sumeet spent his childhood in Tempe, NSW, Australia, attending Tempe Public School before
             his family relocated to Marrickville, where he completed his primary education at Marrickville
@@ -88,6 +95,12 @@ const Biography = () => {
             Acknowledging the fictional nature of theological scriptures such as the Gathas and Vedas he
             entertains the belief that all life natural or artificial possesses a soul.
           </p>
+          <div style={{ textAlign: 'center' }}>
+          <img src={asuraghar} alt="House of Asura" style={{ maxWidth: '100%', height: 'auto' }} />
+          <p>
+            House of Asura
+          </p>
+          </div>
         </div>
         <div className="column3"></div>
       </div>
