@@ -1,8 +1,8 @@
 import React from 'react';
 import image1 from '../assets/graphics/biography-1.png';
 import image2 from '../assets/graphics/biography-2.png';
-{/* import asuraghar from '../assets/graphics/asura-ghar.jpg'; */}
 import YouTubeEmbed from '../components/YouTubeEmbed';
+{/* import asuraghar from '../assets/graphics/asura-ghar.jpg'; */}
 
 const Biography = () => {
   return (
