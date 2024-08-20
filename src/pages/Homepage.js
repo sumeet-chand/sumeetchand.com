@@ -41,15 +41,15 @@ const Homepage = () => {
                             <tr>
                                 <td style={{ width: '33%', verticalAlign: 'top', textAlign: 'center' }}>
                                     <strong>Author</strong><br />
-                                    Sumeet Singh is an author on articles and books revolving around biomedical engineering sciences and philosophies, such as cyberware, cyborgs, and trans/post humanism.
+                                    Sumeet Singh is a author on articles and books revolving around biomedical engineering sciences and philosophies, such as cyberware, cyborgs, and trans/post humanism.
                                 </td>
                                 <td style={{ width: '33%', verticalAlign: 'top', textAlign: 'center' }}>
                                     <strong>Architect</strong><br />
-                                    Sumeet Singh is the founder of the world's first Cybernetics, Cyberware and Cyborg clinic, providing everything from research, education, products and support on cybernetics, cyberware and cyborgs.
+                                    Sumeet Singh is a Engineer of Cybernetics, Cyberware and Cyborgs, providing everything from research, education, products and support on cybernetics, cyberware and cyborgs.
                                 </td>
                                 <td style={{ width: '34%', verticalAlign: 'top', textAlign: 'center' }}>
                                     <strong>Advocate</strong><br />
-                                    Sumeet Singh is a social volunteer assisting the lives of all humans especially those neurodivergent and handicapped, and spokesperson on artificial human rights.
+                                    Sumeet Singh is a volunteer assisting the lives of all humans especially those neurodivergent and handicapped, and spokesperson on artificial human rights.
                                 </td>
                             </tr>
                         </tbody>
