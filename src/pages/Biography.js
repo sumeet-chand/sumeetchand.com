@@ -74,7 +74,7 @@ const Biography = () => {
           </p>
           <h3>Personal Life</h3>
           <p>
-            Sumeet Singh is a director, consultant, scientist, and author on cybernetics, cyberware and
+            Sumeet Singh is a director, engineer, and author on cybernetics, cyberware and
             cyborgs from Sydney, Australia. His ambition aspires to a post-scarcity future where humans
             have autonomy to augment themselves in becoming better by merging with machines.
           </p>
