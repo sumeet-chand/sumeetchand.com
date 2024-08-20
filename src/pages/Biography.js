@@ -74,7 +74,7 @@ const Biography = () => {
           </p>
           <h3>Personal Life</h3>
           <p>
-            Sumeet Singh is a author, engineer, and advocate on cybernetics, cyberware and
+            Sumeet Singh is a author, engineer, and volunteer on cybernetics, cyberware and
             cyborgs from Sydney, Australia. His ambition aspires to a post-scarcity future where humans
             have autonomy to augment themselves in becoming better by merging with machines.
           </p>
