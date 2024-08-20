@@ -48,7 +48,7 @@ const Homepage = () => {
                                     Sumeet Singh is a Engineer of Cybernetics, Cyberware and Cyborgs, providing everything from research, education, products and support on cybernetics, cyberware and cyborgs.
                                 </td>
                                 <td style={{ width: '34%', verticalAlign: 'top', textAlign: 'center' }}>
-                                    <strong>Advocate</strong><br />
+                                    <strong>Volunteer</strong><br />
                                     Sumeet Singh is a volunteer assisting the lives of all humans especially those neurodivergent and handicapped, and spokesperson on artificial human rights.
                                 </td>
                             </tr>
