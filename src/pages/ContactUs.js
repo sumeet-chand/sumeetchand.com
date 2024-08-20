@@ -11,6 +11,13 @@ const ContactUs = () => {
             <h1>Contact Us</h1>
           </div>
           <br />
+          {/* <p>
+            <i>
+              "To humanity I invite you to join me in a world with autonomy to augment our bodies to become
+              better. To merge with the machine and become more than human. To join the next stage of human
+              evolution."
+            </i>
+          </p> */}
           <h3>Contact Us Form</h3>
           <ContactUsForm />
         </div>
