@@ -44,7 +44,7 @@ const Homepage = () => {
                                     Sumeet Singh is a author on articles and books revolving around biomedical engineering sciences and philosophies, such as cyberware, cyborgs, and trans/post humanism.
                                 </td>
                                 <td style={{ width: '33%', verticalAlign: 'top', textAlign: 'center' }}>
-                                    <strong>Architect</strong><br />
+                                    <strong>Engineer</strong><br />
                                     Sumeet Singh is a Engineer of Cybernetics, Cyberware and Cyborgs, providing everything from research, education, products and support on cybernetics, cyberware and cyborgs.
                                 </td>
                                 <td style={{ width: '34%', verticalAlign: 'top', textAlign: 'center' }}>
