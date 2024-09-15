@@ -14,10 +14,10 @@ const Homepage = () => {
                     </div>
                     <br />
                     <p>
-                        Sumeet Singh is an author, engineer, and volunteer on cybernetics,
-                        cyberware and cyborgs from Sydney, Australia. His ambition aspires to a
-                        post-scarcity future where humans have autonomy to augment themselves in becoming
-                        better by merging with machines.
+                        Sumeet Singh is an author, engineer, and advocate on biomedical engineered 
+                        technologies such as cyberware and cyborgs from Sydney, Australia. His ambition 
+                        aspires to a future where humans have autonomy to improve by augmenting themselves 
+                        with technology both for functional rehabilitative and cosmetic reasons
                     </p>
                     <p>
                         His loves range from animals, fashion, technology, horror, tattoos, and body
@@ -26,12 +26,7 @@ const Homepage = () => {
                     <p>
                         Blending his passions together, he researches, develops, and documents
                         science, philosophy and technology related to biomedical engineering such as
-                        cyberware, and cyborgs.
-                    </p>
-                    <p>
-                        He's an advocate on universal rights to all artificial humans be they cyborgs,
-                        androids or artificial intelligence, with a goal to help the human race adapt to
-                        an artificial mechanical dominated future by merging humans and machines together.
+                        cybernetics, cyberware, and cyborgs.
                     </p>
                     <br />
                     <br />
@@ -41,15 +36,15 @@ const Homepage = () => {
                             <tr>
                                 <td style={{ width: '33%', verticalAlign: 'top', textAlign: 'center' }}>
                                     <strong>Author</strong><br />
-                                    Sumeet Singh is a author on articles and books revolving around biomedical engineering sciences and philosophies, such as cyberware, cyborgs, and trans/post humanism.
+                                    Sumeet authors works involving biomedical engineering sciences and philosophies, such as biomedical engineering, cybernetics, and trans humanism.
                                 </td>
                                 <td style={{ width: '33%', verticalAlign: 'top', textAlign: 'center' }}>
                                     <strong>Engineer</strong><br />
-                                    Sumeet Singh is a Engineer of Cybernetics, Cyberware and Cyborgs, providing everything from research, education, products and support on cybernetics, cyberware and cyborgs.
+                                    Sumeet is a hobby Engineer providing research, standards, education, and support on cybernetics, cyberware and cyborgs.
                                 </td>
                                 <td style={{ width: '34%', verticalAlign: 'top', textAlign: 'center' }}>
                                     <strong>Volunteer</strong><br />
-                                    Sumeet Singh is a volunteer assisting the lives of all humans especially those neurodivergent and handicapped, and spokesperson on artificial human rights.
+                                    Sumeet is a life long volunteer assisting with the neurodivergent and handicapped communities, and spokesperson on all human and machine rights.
                                 </td>
                             </tr>
                         </tbody>

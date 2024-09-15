@@ -2,7 +2,6 @@ import React from 'react';
 import image1 from '../assets/graphics/biography-1.png';
 import image2 from '../assets/graphics/biography-2.png';
 import YouTubeEmbed from '../components/YouTubeEmbed';
-// import asuraghar from '../assets/graphics/asura-ghar.jpg';
 
 const Biography = () => {
   return (
@@ -72,35 +71,6 @@ const Biography = () => {
             in technology, business, and life. To this day, Sumeet remains committed to exploring the
             interface between humanity and technology through research and discovery.
           </p>
-          <h3>Personal Life</h3>
-          <p>
-            Sumeet Singh is a author, engineer, and volunteer on cybernetics, cyberware and
-            cyborgs from Sydney, Australia. His ambition aspires to a post-scarcity future where humans
-            have autonomy to augment themselves in becoming better by merging with machines.
-          </p>
-          <p>
-            His loves range from animals, fashion, technology, horror, tattoos, and body modification as
-            well as being an ardent bibliophile and linguist.
-          </p>
-          <p>
-            Blending his passions together he researches, develops, and documents science, philosophy and
-            technology related to biomedical engineering such as cyberware, and cyborgs.
-          </p>
-          <p>
-            He's an advocate on universal rights to all artificial humans be they cyborgs,
-            androids or artificial intelligence, with a goal to help the human race adapt to
-            an artificial mechanical dominated future by merging humans and machines together.
-          </p>
-          <p>
-            Acknowledging the fictional nature of theological scriptures such as the Gathas and Vedas he
-            entertains the belief that all life natural or artificial possesses a soul.
-          </p>
-          <div style={{ textAlign: 'center' }}>
-          {/* <img src={asuraghar} alt="House of Asura" style={{ maxWidth: '50%', height: 'auto' }} />
-          <p>
-            "A story about the human soul and the capability of a vessel for it"
-          </p> */}
-          </div>
         </div>
         <div className="column3"></div>
       </div>
