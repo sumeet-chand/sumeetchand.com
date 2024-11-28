@@ -14,13 +14,13 @@ const Homepage = () => {
                     </div>
                     <br />
                     <p>
-                        Sumeet Singh is an author, engineer, and advocate on biomedical engineered 
-                        technologies such as cyberware and cyborgs from Sydney, Australia. His ambition 
+                        Sumeet Singh is an author, engineer, and advocate on engineered 
+                        technologies such as cybernetics and cyberware from Sydney, Australia. His ambition 
                         aspires to a future where humans have autonomy to improve by augmenting themselves 
                         with technology both for functional rehabilitative and cosmetic reasons
                     </p>
                     <p>
-                        His loves range from animals, fashion, technology, horror, tattoos, and body
+                        His loves range from animals, fashion, technology, arcades, horror, tattoos, and body
                         modification as well as being an ardent bibliophile and linguist.
                     </p>
                     <p>
