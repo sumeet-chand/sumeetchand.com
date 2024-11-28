@@ -16,14 +16,15 @@ const Biography = () => {
           </div>
           <br />
           <p>
-            Sumeet Singh, born on September 18, 1991, in Sydney, Australia, is the younger of two sons born
-            to Anilta and Dalip Chand.
+            Sumeet Chand (Uses penpal nicknames; Sumeet Singh, or Summer Chand) of B- blood type
+            was born on September 18, 1991, in Sydney, Australia, is the younger of two sons born to Anilta and 
+            Dalip Chand.
           </p>
           <p>
-            Anilta Chand, born on January 2, 1956, in Suva, Fiji, began her professional journey after
-            completing high school, initially working in the Housing Authority in Fiji. She showcased her
-            diverse skill set as a legal typist, bookkeeper, and accountant. Anilta migrated to Sydney,
-            Australia, on October 22, 1988, where she found employment with TUTA before Sumeet's birth.
+            Anilta Chand of AB+ blood type, born on January 2, 1956, in Suva, Fiji, began her professional 
+            journey after completing high school, initially working in the Housing Authority in Fiji. She 
+            showcased her diverse skill set as a legal typist, bookkeeper, and accountant. Anilta migrated to 
+            Sydney, Australia, on October 22, 1988, where she found employment with TUTA before Sumeet's birth.
             Throughout her life, she worked at various medical institutes, including Royal Prince Alfred
             Hospital (RPA).
           </p>
@@ -34,8 +35,8 @@ const Biography = () => {
             </div>
           </p>
           <p>
-            Dalip Chand, born on April 18, 1953, in Labasa, Fiji, is a Pundit, polymath, and polyglot
-            proficient in fields such as medical sciences, linguistics, and music. His academic journey
+            Dalip Chand of B- blood type, born on April 18, 1953, in Labasa, Fiji, is a Pundit, polymath, 
+            and polyglot proficient in fields such as medical sciences, linguistics, and music. His academic journey
             took him to universities across the globe, from the University of South Pacific (USP),
             University of the Philippines Los Baños (UPLB) to the University of Sydney (USYD).
           </p>
