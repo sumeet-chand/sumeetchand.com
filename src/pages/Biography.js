@@ -1,6 +1,7 @@
 import React from 'react';
 import image1 from '../assets/graphics/biography-1.png';
 import image2 from '../assets/graphics/biography-2.png';
+import sumeetchandsignature from '../assets/graphics/sumeet-chand-signature.png';
 import YouTubeEmbed from '../components/YouTubeEmbed';
 
 const Biography = () => {
@@ -19,6 +20,11 @@ const Biography = () => {
             Sumeet Chand an author using nicknames; Sumeet Singh, and Summer Chand; of B blood type
             was born on September 18, 1991, in Sydney, Australia, is the younger of two sons born to Anilta and 
             Dalip Chand.
+          </p>
+          <p>
+          <div style={{ textAlign: 'center' }}>
+          <img src={sumeetchandsignature} alt="Sumeet Chand's signature" style={{ maxWidth: '50%', height: 'auto' }} />
+            </div>
           </p>
           <p>
             Anilta Chand of AB+ blood type, born on January 2, 1956, in Suva, Fiji, began her professional 
