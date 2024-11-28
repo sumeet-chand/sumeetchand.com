@@ -16,7 +16,7 @@ const Biography = () => {
           </div>
           <br />
           <p>
-            Sumeet Chand an authors using nicknames; Sumeet Singh, and Summer Chand; of B- blood type
+            Sumeet Chand an author using nicknames; Sumeet Singh, and Summer Chand; of B- blood type
             was born on September 18, 1991, in Sydney, Australia, is the younger of two sons born to Anilta and 
             Dalip Chand.
           </p>
