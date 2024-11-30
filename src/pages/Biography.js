@@ -17,7 +17,7 @@ const Biography = () => {
           </div>
           <br />
           <p>
-            Sumeet Chand is an author writing under pennames/nicknames; Sumeet Singh and Summer Chand; of B blood type
+            Sumeet Chand is an author writing under pennames/nicknames; Sumeet Singh;
             was born on September 18, 1991, in Sydney, Australia, and is the youngest son born to Anilta and 
             Dalip Chand.
           </p>
@@ -27,7 +27,7 @@ const Biography = () => {
             </div>
           </p>
           <p>
-            Anilta Chand of AB+ blood type, born on January 2, 1956, in Suva, Fiji, began her professional 
+            Anilta Chand born on January 2, 1956, in Suva, Fiji, began her professional 
             journey after completing high school, initially working in the Housing Authority in Fiji. She 
             showcased her diverse skill set as a legal typist, bookkeeper, and accountant. Anilta migrated to 
             Sydney, Australia, on October 22, 1988, where she found employment with TUTA before Sumeet's birth.
@@ -41,7 +41,7 @@ const Biography = () => {
             </div>
           </p>
           <p>
-            Dalip Chand of B- blood type, born on April 18, 1953, in Labasa, Fiji, is a Pundit, polymath, 
+            Dalip Chand born on April 18, 1953, in Labasa, Fiji, is a Pundit, polymath, 
             and polyglot proficient in fields such as medical sciences, linguistics, and music. His academic journey
             took him to universities across the globe, from the University of South Pacific (USP),
             University of the Philippines Los Baños (UPLB) to the University of Sydney (USYD).

@@ -10,11 +10,12 @@ const Homepage = () => {
                 </div>
                 <div className="column2">
                     <div style={{ textAlign: 'center' }}>
-                        <h1>Sumeet Singh's biography</h1>
+                        <h1>Sumeet Chand's biography</h1>
                     </div>
                     <br />
                     <p>
-                        Sumeet Singh is an author, engineer, and advocate on engineered 
+                        Sumeet Chand is an author writing under pennames/nicknames; Sumeet Singh; 
+                        an engineer, and advocate on engineered 
                         technologies such as cybernetics and cyberware from Sydney, Australia. His ambition 
                         aspires to a future where humans have autonomy to improve by augmenting themselves 
                         with technology both for functional rehabilitative and cosmetic reasons
