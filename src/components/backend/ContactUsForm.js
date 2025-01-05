@@ -1,3 +1,6 @@
+/* For website contact us page http://sumeet-singh.com/contactus the contact us form
+uses FormSpree service for POST to send messages to my sumeet.singhji@outlook.com mailbox */
+
 import React, { useState } from 'react';
 
 const ContactUsForm = () => {

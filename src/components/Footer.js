@@ -23,6 +23,7 @@ const Footer = () => {
       </div>
       <div className="footercolumn">
         {/* Third column content goes here */}
+        <p>Copyright © Sumeet Chand</p>
       </div>
     </div>
   );

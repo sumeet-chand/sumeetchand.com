@@ -107,9 +107,41 @@ a {
 .footer .footercolumn p {
   margin: 0;
   padding: 0;
-  list-style: none; /* Removes default list styles */
+  list-style: none; /* Removes dot points e.g, for Quick Links */
 }
 
 .footer .footercolumn ul li {
   margin: 0.5rem 0; /* Provides margin between list items */
+}
+
+/* Media query for screens smaller than 640px 
+*/
+@media (max-width: 640px) {
+  .header .nav-links {
+    display: none; /* Hide navigation links */
+    flex-direction: column; /* Stack links vertically */
+    width: 100%; /* Full width */
+    background-color: #f8f9fa; /* Same background color as header */
+    position: absolute; /* Position relative to header */
+    top: 60px; /* Adjust based on header height */
+    left: 0;
+  }
+
+  .header .nav-links.active {
+    display: flex; /* Show navigation links when active */
+  }
+
+  /* When viewing on a mobile smaller screen compact the header navigation links into a hamburger menu */ */
+  .hamburger {
+    display: flex; /* Show hamburger menu icon */
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+  }
 }
