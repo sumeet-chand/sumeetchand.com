@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/Homepage';
 import Biography from './pages/Biography';
 import Books from './pages/Books';
-// import News from './pages/News';
+import News from './pages/News';
 import ContactUs from './pages/ContactUs';
 import NotFound from './pages/NotFound';
 import './App.css';
@@ -22,7 +22,7 @@ function App() {
               <Route path="/" element={<HomePage />} />
               <Route path="/books" element={<Books />} />
               <Route path="/biography" element={<Biography />} />
-              {/* <Route path="/news" element={<News />} /> */}
+              <Route path="/news" element={<News />} />
               <Route path="/contactus" element={<ContactUs />} />
               <Route path="*" element={<NotFound />} />
             </Routes>

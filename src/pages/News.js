@@ -15,11 +15,7 @@ const News = () => {
           <h3>Delay with book "Cybernetics, Cyberware and Cyborgs"</h3>
           <p>
             Sorry everyone. I'm looking for a forward (book introduction) from a person discussed
-            within the book who lives overseas that I would like to personally visit first.
-          </p>
-          <p>
-            I can't give an ETA as I'm busy with life (mostly volunteering in Sydney & studying in
-            my spare time so forgive me) but expect hopefully before 2026.
+            within the book who lives overseas that I would like to personally visit first. I can't give an ETA as I'm busy with life
           </p>
           <br />
           <h3>Ongoing Biomedical Engineering Meetup</h3>
