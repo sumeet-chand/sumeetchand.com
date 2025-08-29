@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -10,11 +10,20 @@ import ContactUs from './pages/ContactUs';
 import NotFound from './pages/NotFound';
 import './App.css';
 
+  
+
 function App() {
+
+  const [darkMode, setDarkMode] = useState(false); // state for dark mode
+  const handleToggleDarkMode = () => {setDarkMode(prev => !prev)}; // function to toggle dark mode
+
   return (
-    <div className="App">
+    <div className={`App ${darkMode ? 'dark-mode' : ''}`}>
       <div className="wrapper">
-        <Header />
+        <Header 
+        onToggleDarkMode={handleToggleDarkMode}
+          darkMode={darkMode}
+        />
         <div className="row">
           <div className="column1"></div>
           <div className="column2">

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logoImage from '../assets/graphics/logos/logo.png';
 
-const Header = () => {
+const Header = ({ onToggleDarkMode, darkMode }) => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNav = () => {
@@ -21,6 +21,7 @@ const Header = () => {
           <li><Link to="/biography">Biography</Link></li>
           <li><Link to="/news">News</Link></li>
           <li><Link to="/contactus">Contact us</Link></li>
+          <li><button onClick={onToggleDarkMode}>{darkMode ? '🌙' : '☀️'}</button></li>
         </ul>
       </nav>
       <div className="hamburger" onClick={toggleNav}>

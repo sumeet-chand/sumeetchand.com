@@ -18,6 +18,32 @@ a {
   min-height: 100vh; /* Ensures wrapper spans the full viewport height */
 }
 
+.dark-mode {
+  background-color: #121212; /* Dark background color */
+  color: white; /* Light text color */
+}
+
+.header .dark-mode {
+  background-color: #333; /* Dark background color for header */
+  color: white; /* Light text color for header */
+}
+
+.footer .dark-mode {
+  background-color: #333; /* Dark background color for footer */
+  color: white; /* Light text color for footer */
+}
+
+/* Dark mode for header and footer */
+.dark-mode .header {
+  background-color: #333;
+  color: white;
+}
+
+.dark-mode .footer {
+  background-color: #333;
+  color: white;
+}
+
 /* Header styles */
 .header {
   display: flex;
