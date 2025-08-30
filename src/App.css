@@ -1,39 +1,140 @@
 /* Reset and basic styles */
 body, html, #root {
-  font-family: Arial, sans-serif; /* Fallback font */
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   height: 100%;
-  box-sizing: border-box; /* Ensures padding and border are included in total width/height */
+  box-sizing: border-box;
 }
 
 a {
-  text-decoration: none; /* Remove underline from links */
+  text-decoration: none;
 }
 
-/* Wrapper for entire layout */
+/* Wrapper */
 .wrapper {
   display: flex;
-  flex-direction: column; /* Stacks header, main content, and footer vertically */
-  min-height: 100vh; /* Ensures wrapper spans the full viewport height */
+  flex-direction: column;
+  min-height: 100vh;
 }
 
+/* Dark mode base */
 .dark-mode {
-  background-color: #121212; /* Dark background color */
-  color: white; /* Light text color */
+  background-color: #121212;
+  color: white;
 }
 
-.header .dark-mode {
-  background-color: #333; /* Dark background color for header */
-  color: white; /* Light text color for header */
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f9fa;
 }
 
-.footer .dark-mode {
-  background-color: #333; /* Dark background color for footer */
-  color: white; /* Light text color for footer */
+.header img {
+  width: 100px;
+  height: 100px;
 }
 
-/* Dark mode for header and footer */
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+/* Header navigation */
+.header .nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header .nav-links li {
+  margin: 0 1rem;
+}
+
+.header .nav-links li a {
+  text-decoration: none;
+  color: black;
+}
+
+.header .nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Hamburger menu (mobile) */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+}
+
+/* Main content area */
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.column1,
+.column3 {
+  flex: 0 0 calc((100% - 4rem) * 0.15);
+  padding: 1rem;
+}
+
+.column2 {
+  flex: 0 0 calc((100% - 4rem) * 0.7);
+  padding: 1rem;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: antiquewhite;
+}
+
+.footer .footercolumn {
+  flex: 1;
+  padding: 0 1rem;
+}
+
+.footer .footercolumn h4 {
+  margin-top: 0;
+}
+
+.footer .footercolumn ul,
+.footer .footercolumn p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer .footercolumn ul li {
+  margin: 0.5rem 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Dark mode: header, footer, nav, hamburger, toggle, links */
 .dark-mode .header {
   background-color: #333;
   color: white;
@@ -44,128 +145,64 @@ a {
   color: white;
 }
 
-/* Header styles */
-.header {
-  display: flex;
-  justify-content: space-between; /* Space between logo and nav links */
-  align-items: center; /* Center items vertically */
-  padding: 1rem; /* Padding around header content */
-  background-color: #f8f9fa; /* Background color for header */
+.dark-mode .footer a {
+  color: white;
 }
 
-.header a {
-  text-decoration: none; /* Remove underline from links */
-  color: black; /* Set link color */
+.dark-mode .header .nav-links,
+.dark-mode .hamburger {
+  background-color: #333;
 }
 
-.header a:hover {
-  text-decoration: underline; /* Add underline on hover */
+.dark-mode .hamburger div {
+  background-color: #fff;
 }
 
-.header img {
-  width: 100px; /* Fixed width for logo */
-  height: 100px; /* Fixed height for logo */
+.dark-mode .dark-mode-toggle {
+  background-color: #333;
+  color: #fff;
+  border: none;
 }
 
-/* Navigation links styles specific to header */
-.header .nav-links {
-  display: flex; /* Align links horizontally */
-  list-style: none; /* Remove default list styles */
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
+.dark-mode .dark-mode-toggle svg {
+  fill: #fff;
 }
 
-.header .nav-links li {
-  margin: 0 1rem; /* Space between each link */
+.dark-mode .header .nav-links li a {
+  color: white !important;
 }
 
-.header .nav-links li a {
-  text-decoration: none; /* Remove underline from links */
-  color: black; /* Set link color */
-}
-
-.header .nav-links li a:hover {
-  text-decoration: underline; /* Add underline on hover */
-}
-
-/* Main content area */
-.main {
-  display: flex;
-  justify-content: space-between; /* Evenly distributes columns */
-  align-items: flex-start; /* Aligns columns at the top */
-  padding: 2rem; /* Provides padding around main content */
-}
-
-.column1,
-.column3 {
-  flex: 0 0 calc((100% - 4rem) * 0.15); /* 15% width, fixed */
-  padding: 1rem; /* Provides padding inside each column */
-}
-
-.column2 {
-  flex: 0 0 calc((100% - 4rem) * 0.7); /* 70% width, fixed */
-  padding: 1rem; /* Provides padding inside column2 */
-}
-
-/* Footer styles */
-.footer {
-  display: flex;
-  justify-content: space-between; /* Evenly distributes footer columns */
-  padding: 1rem; /* Provides padding around footer content */
-  background-color: antiquewhite;
-}
-
-.footer a {
-  text-decoration: none; /* Remove underline from links */
-  color: black; /* Set link color */
-}
-
-.footer .footercolumn {
-  flex: 1; /* Each footer column takes equal space */
-  padding: 0 1rem; /* Provides padding inside each footer column */
-}
-
-.footer .footercolumn h4 {
-  margin-top: 0; /* Removes margin on top of heading */
-}
-
-.footer .footercolumn ul,
-.footer .footercolumn p {
-  margin: 0;
-  padding: 0; /* Provides padding inside each footer column */
-  list-style: none; /* Removes dot points e.g, for Quick Links */
-}
-
-.footer .footercolumn ul li {
-  margin: 0.5rem 0; /* Provides margin between list items */
-}
-
-/* Media query for screens smaller than 640px */
+/* Responsive styles */
 @media (max-width: 640px) {
   .header .nav-links {
-    display: none; /* Hide navigation links */
-    flex-direction: column; /* Stack links vertically */
-    width: 100%; /* Full width */
-    background-color: #f8f9fa; /* Same background color as header */
-    position: absolute; /* Position relative to header */
-    top: 60px; /* Adjust based on header height */
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f8f9fa;
+    position: absolute;
+    top: 60px;
     left: 0;
   }
 
   .header .nav-links.active {
-    display: flex; /* Show navigation links when active */
+    display: flex;
   }
 
   .hamburger {
-    display: flex; /* Show hamburger menu icon */
-    flex-direction: column;
-    cursor: pointer;
+    display: flex;
   }
 
-  .hamburger div {
-    width: 25px;
-    height: 3px;
-    background-color: black;
-    margin: 4px 0;
+  .row {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .column1,
+  .column2,
+  .column3 {
+    flex: 1 1 100%;
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
   }
 }
