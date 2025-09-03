@@ -54,7 +54,7 @@ const Homepage = () => {
                     <br />
                     <br />
                     <div style={{ textAlign: 'center', marginTop: '20px' }}>
-                        <img src={image1} alt="Sumeet Singh" style={{ maxWidth: '100%', height: 'auto' }} />
+                        <img src={image1} alt="Sumeet Chand" style={{ maxWidth: '100%', height: 'auto' }} />
                     </div>
                 </div>
                 <div className="column3">
