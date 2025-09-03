@@ -87,6 +87,7 @@ const ContactUsForm = () => {
 
   return (
     <form
+      className="contact-form"
       onSubmit={handleSubmit}
       action="https://formspree.io/f/mayrrrez"
       method="POST"
