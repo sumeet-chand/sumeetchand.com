@@ -14,8 +14,7 @@ const Homepage = () => {
                     </div>
                     <br />
                     <p>
-                        Sumeet Chand is an author writing under pennames/nicknames; Sumeet Singh; 
-                        an engineer, and advocate on engineered 
+                        Sumeet Chand is an author, engineer, and advocate on engineered 
                         technologies such as cybernetics and cyberware from Sydney, Australia. His ambition 
                         aspires to a future where humans have autonomy to improve by augmenting themselves 
                         with technology both for functional rehabilitative and cosmetic reasons

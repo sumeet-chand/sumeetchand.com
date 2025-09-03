@@ -12,7 +12,7 @@ const Header = ({ onToggleDarkMode, darkMode }) => {
   return (
     <div className="header">
       <Link to="/">
-        <img src={logoImage} alt="Sumeet Singh logo" className="logo" />
+        <img src={logoImage} alt="Sumeet chand logo" className="logo" />
       </Link>
       <nav>
         <ul className={`nav-links ${isNavOpen ? 'active' : ''}`}>

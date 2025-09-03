@@ -17,8 +17,7 @@ const Biography = () => {
           </div>
           <br />
           <p>
-            Sumeet Chand is an author writing under pennames/nicknames; Sumeet Singh;
-            was born on September 18, 1991, in Sydney, Australia, and is the youngest son born to Anilta and 
+            Sumeet Chand was born on September 18, 1991, in Sydney, Australia, and is the youngest son born to Anilta and 
             Dalip Chand.
           </p>
           <p>
