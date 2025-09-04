@@ -250,6 +250,55 @@ a {
   color: #b9f6ca;
 }
 
+/* =========================
+   Dark Mode
+========================= */
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+.dark-mode .header {
+  background-color: #333;
+  color: white;
+}
+.dark-mode .footer {
+  background-color: #333;
+  color: white;
+}
+.dark-mode .footer a {
+  color: white;
+}
+.dark-mode .header .nav-links,
+.dark-mode .hamburger {
+  background-color: #333;
+}
+.dark-mode .hamburger div {
+  background-color: #fff;
+}
+.dark-mode .dark-mode-toggle {
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+.dark-mode .dark-mode-toggle svg {
+  fill: #fff;
+}
+.dark-mode .header .nav-links li a {
+  color: white !important;
+}
+
+.App.dark-mode .main .product-card {
+  background: #333;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.App.dark-mode .main ul li:hover {
+  background: #444;
+}
+.App.dark-mode .main .product-img {
+  box-shadow: 0 2px 8px rgba(255,255,255,0.08);
+}
+
 /* Responsive styles */
 @media (max-width: 640px) {
   .header .nav-links {
