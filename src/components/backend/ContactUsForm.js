@@ -1,5 +1,5 @@
 /* For website contact us page http://sumeetchand.com/contactus the contact us form
-uses FormSpree service for POST to send messages to my sumeet.chand@outlook.com mailbox */
+uses FormSpree service for POST to send messages to my personal mailbox */
 
 import React, { useState } from 'react';
 
