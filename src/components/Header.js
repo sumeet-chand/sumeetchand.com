@@ -20,7 +20,9 @@ const Header = ({ onToggleDarkMode, darkMode }) => {
           <li><Link to="/books">Books</Link></li>
           <li><Link to="/biography">Biography</Link></li>
           <li><Link to="/gallery">Gallery</Link></li>
-          <li><Link to="/hope">HOPE</Link></li>
+          <li>
+            <a href="/hope" className="sparkle-link">HOPE</a>
+          </li>
           <li><Link to="/news">News</Link></li>
           <li><Link to="/contactus">Contact us</Link></li>
           <li><button onClick={onToggleDarkMode}>{darkMode ? '🌙' : '☀️'}</button></li>
