@@ -1,4 +1,5 @@
 import React from 'react';
+import porus from '../assets/graphics/porus.jpg';
 
 const Gallery = () => {
   return (
@@ -17,7 +18,8 @@ const Gallery = () => {
 
             Send your images to: sumeet.singhji@outlook.com and I will add them to this gallery.
           </p>
-          <img src="path/to/your/image.jpg" alt="Gallery Image" />
+          <img src={porus} alt="Porus" />
+          My son, Porus.
         </div>
         <div className="column3"></div>
       </div>

@@ -394,3 +394,13 @@ a {
   text-shadow: 0 0 24px #fff, 0 0 32px #ffd700;
   box-shadow: 0 0 24px #ffd700;
 }
+
+/* Gallery page image styling */
+.column2 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+}
