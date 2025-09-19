@@ -53,7 +53,7 @@ const News = () => {
             </p>
             <p>
               Before you give up, just message me. Let's make a better world. <a href="/contactus" style={{ color: '#007bff', textDecoration: 'underline' }}>Contact Me</a>.
-              Sorry this will sound stupid, but I don't have time to fix my contact us form above, I'm tired.. I'm building a future. Just email me here: sumeet.singhji@outlook.com
+              Edit: Sorry this will sound stupid, but I don't have time to diagnose and fix my contact us form above, I'm tired... I'm sorry... I'm building a future. Just email me here: sumeet.singhji@outlook.com
             </p>
           </div>
         </div>
