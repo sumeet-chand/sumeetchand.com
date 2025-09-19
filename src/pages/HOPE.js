@@ -52,7 +52,8 @@ const News = () => {
               <strong>So put down the gun. Throw away the drugs. Step back from the edge. Take a deep breath.</strong> If you have nothing left to live for then let's work together to make a better world where we as a species are united as one. I cannot lie and tell you that I'm right, but I'm working towards a better future, and I can't do it alone. I need you, and you need me. Together we can make a difference. Together we can make a better world. Together we can make a better future. Together we can make a better life.
             </p>
             <p>
-              Before you give up, just message me. Let's make a better world. <a href="/contactus" style={{ color: '#007bff', textDecoration: 'underline' }}>Contact Me</a>
+              Before you give up, just message me. Let's make a better world. <a href="/contactus" style={{ color: '#007bff', textDecoration: 'underline' }}>Contact Me</a>.
+              Sorry this will sound stupid, but I don't have time to fix my contact us form above, I'm tired.. I'm building a future. Just email me here: sumeet.singhji@outlook.com
             </p>
           </div>
         </div>
