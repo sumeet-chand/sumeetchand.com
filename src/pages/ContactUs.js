@@ -13,7 +13,7 @@ const ContactUs = () => {
           <br />
           <p>
             <i>
-              "Join me in science."
+              "Join me in a world where we have the freedom to augment ourselves, become better, and join the next stage of human evolution."
             </i>
           </p>
           <h3>Contact Us Form</h3>

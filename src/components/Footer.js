@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="footercolumn">
         <h3>Mission</h3>
         <p><i>
-          "Join me in science."
+          "Join me in a world where we have the freedom to augment ourselves, become better, and join the next stage of human evolution."
         </i>
         </p>
       </div>

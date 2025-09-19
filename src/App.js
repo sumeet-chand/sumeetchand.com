@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import HomePage from './pages/Homepage';
 import Biography from './pages/Biography';
 import Books from './pages/Books';
+import Gallery from './pages/Gallery';
+import HOPE from './pages/HOPE';
 import News from './pages/News';
 import ContactUs from './pages/ContactUs';
 import NotFound from './pages/NotFound';
@@ -31,7 +33,8 @@ function App() {
               <Route path="/" element={<HomePage />} />
               <Route path="/books" element={<Books />} />
               <Route path="/biography" element={<Biography />} />
-              <Route path="/news" element={<News />} />
+              <Route path="/hope" element={<HOPE />} />
+              <Route path="/gallery" element={<Gallery />} />
               <Route path="/contactus" element={<ContactUs />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
