@@ -15,7 +15,7 @@ const HOPE = () => {
           <article style={{ background: 'rgba(255,255,255,0.85)', borderRadius: '1rem', padding: '2rem', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
             <h3 style={{ marginTop: 0 }}>A Message for You</h3>
             <p>
-              This is a message for those standing on the edge. For those waiting for the pain to fade, for those feeling lost and alone.
+              This is a message for those standing on the edge. With a hand or belly or vein filled with drugs, with a gun to your head, or a rope around your neck. This is a message for those who feel hopeless, helpless, worthless, unloved, misunderstood, betrayed, hurt, angry, depressed, anxious, lonely, scared, lost, broken, and alone.
             </p>
             <blockquote style={{ fontStyle: 'italic', color: '#555', borderLeft: '4px solid #333', margin: '1.5rem 0', paddingLeft: '1rem' }}>
               You are not alone. We all make mistakes. We all feel pain invisible to others. We all feel betrayed, hurt, and misunderstood. But you are not the only one who has felt this way.
