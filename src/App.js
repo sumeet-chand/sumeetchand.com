@@ -5,11 +5,11 @@ import Footer from './components/Footer';
 import HomePage from './pages/Homepage';
 import Biography from './pages/Biography';
 import Books from './pages/Books';
-import Gallery from './pages/Gallery';
-import HOPE from './pages/HOPE';
-import News from './pages/News';
+import News from './pages/News'; // <-- Make sure this import is correct
 import ContactUs from './pages/ContactUs';
+import HOPE from './pages/HOPE'; // <-- If your HOPE page is HOPE.js
 import NotFound from './pages/NotFound';
+import Gallery from './pages/Gallery';
 import './App.css';
 
   
@@ -26,15 +26,16 @@ function App() {
         onToggleDarkMode={handleToggleDarkMode}
           darkMode={darkMode}
         />
-        <div className="row">
+        <div className="main">
           <div className="column1"></div>
           <div className="column2">
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/books" element={<Books />} />
               <Route path="/biography" element={<Biography />} />
-              <Route path="/hope" element={<HOPE />} />
               <Route path="/gallery" element={<Gallery />} />
+              <Route path="/hope" element={<HOPE />} /> {/* HOPE page */}
+              <Route path="/news" element={<News />} /> {/* News page */}
               <Route path="/contactus" element={<ContactUs />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
