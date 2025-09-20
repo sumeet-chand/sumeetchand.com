@@ -34,13 +34,10 @@ const News = () => {
               Humans are not perfect. We started out as animals but we fight to make a society, civilisation, and create rules, and laws, and morals to live by. We are not perfect, but we try. We try to be better. We try to be good. We try to be kind. We try to be loving. We try to be compassionate. We try to be understanding. We try to be forgiving. We try to be patient. We try to be humble. We try to be grateful. We try to be hopeful.
             </p>
             <p>
-              But humans are also selfish. We are also cruel. We are also evil. We murder, rape, kill and torture. We are also hateful. We are also proud. We are also arrogant. We are also vain. We are also lazy. We are also ignorant. We are also fearful. We are also weak. We are also flawed.
+              But humans are also selfish, cruel and evil. We murder, rape, kill and torture. We are also hateful. We are also proud. We are also arrogant. We are also vain. We are also lazy. We are also ignorant. We are also fearful. We are also weak. We are also flawed.
             </p>
             <p>
               But beneath the exterior we are all scared children. Scared of being judged, being humiliated, laughed at, our accomplishments belittled. We are scared of being alone, being abandoned, being rejected, being unloved. We are scared of being hurt, being betrayed, being disappointed. We are scared of being vulnerable, being exposed, being seen for who we really are.
-            </p>
-            <p>
-              Humans will not stop hurting each other, we have passed the point that we as a species can feel united. All 8 billion of us. We are too far, divided, different. I can't convince you the world will be united today or tomorrow.
             </p>
             <p>
               So what is the solution? To jump off the edge? To take the drugs? To pull the trigger? <strong>No.</strong> The solution is to find one person, just one person, who you can trust. One person who will listen to you. One person who will understand you. One person who will empathise with you. One person who will sympathise with you. One person who will forgive you. One person who will love you.
@@ -49,15 +46,10 @@ const News = () => {
               If you can find that one person, you will find hope. You will find a reason to live. You will find a reason to be happy. I promise you, if you don't find that person, I will be that person. I will listen to you. I will understand you. I won't judge or hate you. I will empathise with you. I will sympathise with you. I will forgive you. I will love you.
             </p>
             <p>
-              It won't matter how much you believe the world hates you, laughs at you, judges you, or belittles you. I will stand in front of you to shield you from all the pain, all the hate, all the judgement. I will be the biggest fool, the biggest loser, the biggest idiot, just to make you feel better than me. You will never be at the bottom, because I will be underneath you.<br /><br />
-              If you feel like you have no place in this world, If you believe the gods/goddess have abandoned you, I stand with sword and shield in hand. Ready to face the void of this universe together. I also fight to find my place in this world, and I will fight alongside you to find your place in this world. No matter how many mistakes you make, I will be there beside you, reminding you that your life has meaning.
-            </p>
-            <p>
               <strong>So put down the gun. Throw away the drugs. Step back from the edge. Take a deep breath.</strong> If you have nothing left to live for then let's work together to make a better world where we as a species are united as one. I cannot lie and tell you that I'm right, but I'm working towards a better future, and I can't do it alone. I need you, and you need me. Together we can make a difference. Together we can make a better world. Together we can make a better future. Together we can make a better life.
             </p>
             <p>
-              Before you give up, just message me. Let's make a better world. <a href="/contactus" style={{ color: '#007bff', textDecoration: 'underline' }}>Contact Me</a>.
-              Edit: Sorry this will sound stupid, but I don't have time to diagnose and fix my contact us form above, I'm tired... I'm sorry... I'm building a future. Just email me here: sumeet.singhji@outlook.com
+              Before you give up, just message me. Let's make a better world. Email me here: sumeet.singhji@outlook.com
             </p>
           </div>
         </div>
