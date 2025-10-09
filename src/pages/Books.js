@@ -24,15 +24,37 @@ const Books = () => {
           <br />
           <h4>Purchase Links</h4>
           <p>Sabrenetics has a "pay what you can afford" approach to education.</p>
-          <p>
-            Free version available <a href="https://drive.google.com/file/d/1gNtkhOXLGVpJmKPTf4WRqMws0BfdSKPi/view?usp=drive_link" target="_blank" rel="noopener noreferrer">here</a>
-          </p>
-          <p>
-            Free lossless (High quality) version available <a href="https://drive.google.com/file/d/1EakO4zW-n2-LFHAhv95pD4LpcFDCqyGG/view?usp=drive_link" target="_blank" rel="noopener noreferrer">here</a>
-          </p>
-          <p>
-            Paid version available <a href="https://sabrenetics.com/products/cyborg-alphabet" target="_blank" rel="noopener noreferrer">here</a>
-          </p>
+          <ul>
+            <li>
+              Free version available&nbsp;
+              <a href="https://drive.google.com/file/d/1gNtkhOXLGVpJmKPTf4WRqMws0BfdSKPi/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                here
+              </a>
+            </li>
+            <li>
+              Free lossless (High quality) version available&nbsp;
+              <a href="https://drive.google.com/file/d/1EakO4zW-n2-LFHAhv95pD4LpcFDCqyGG/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                here
+              </a>
+            </li>
+            <li>
+              Paid versions available:
+              <ul>
+                <li>
+                  Hardcover:&nbsp;
+                  <a href="https://www.amazon.com/Cyborg-Alphabet-Sumeet-Singh/dp/0645657905" target="_blank" rel="noopener noreferrer">
+                    here
+                  </a>
+                </li>
+                <li>
+                  eBook:&nbsp;
+                  <a href="https://www.amazon.com.au/Cyborg-Alphabet-Sumeet-Singh-ebook/dp/B0BR8KPW9G" target="_blank" rel="noopener noreferrer">
+                    here
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
           <table style={{ width: '100%' }}>
             <tbody>
               <tr>
@@ -96,15 +118,25 @@ const Books = () => {
           <br />
           <h4>Purchase Links</h4>
           <p>Sabrenetics has a "pay what you can afford" approach to education.</p>
-          <p>
-            Free version available: TBA
-          </p>
-          <p>
-            Free lossless (High quality) version available: TBA
-          </p>
-          <p>
-            Paid version available: TBA
-          </p>
+          <ul>
+            <li>
+              Free version available: <span>TBA</span>
+            </li>
+            <li>
+              Free lossless (High quality) version available: <span>TBA</span>
+            </li>
+            <li>
+              Paid versions available:
+              <ul>
+                <li>
+                  Paperback: <span>TBA</span>
+                </li>
+                <li>
+                  eBook: <span>TBA</span>
+                </li>
+              </ul>
+            </li>
+          </ul>
           <table style={{ width: '100%' }}>
             <tbody>
               <tr>
