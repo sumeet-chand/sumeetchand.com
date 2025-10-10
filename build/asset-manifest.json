@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.c5d1fcec.css",
-    "main.js": "/static/js/main.c624948c.js",
+    "main.css": "/static/css/main.795ca825.css",
+    "main.js": "/static/js/main.d163fa10.js",
+    "static/media/porus.jpg": "/static/media/porus.22c625a0ccc5ca64e276.jpg",
     "static/media/biography-2.png": "/static/media/biography-2.32996a5792361021a581.png",
     "static/media/book-2.png": "/static/media/book-2.df08367c984a39403929.png",
     "static/media/logo.png": "/static/media/logo.0649b7fe36e02c758485.png",
@@ -10,11 +11,11 @@
     "static/media/me.jpeg": "/static/media/me.5112c6b7f0f306f9c225.jpeg",
     "static/media/sumeet-chand-signature.png": "/static/media/sumeet-chand-signature.cb398b85f3bfee7d3cfe.png",
     "index.html": "/index.html",
-    "main.c5d1fcec.css.map": "/static/css/main.c5d1fcec.css.map",
-    "main.c624948c.js.map": "/static/js/main.c624948c.js.map"
+    "main.795ca825.css.map": "/static/css/main.795ca825.css.map",
+    "main.d163fa10.js.map": "/static/js/main.d163fa10.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5d1fcec.css",
-    "static/js/main.c624948c.js"
+    "static/css/main.795ca825.css",
+    "static/js/main.d163fa10.js"
   ]
 }
